@@ -48,6 +48,14 @@ hiddenentry " " --hotkey f6 {
   configfile ${prefix}/power.sh;
 }
 
+hiddenentry " Ventoy Multiboot" --hotkey f7 {
+  configfile ${prefix}/ventoy.sh;
+}
+ 
+hiddenentry " grub4dos menu" --hotkey f8 {
+  configfile ${prefix}/g4dos.sh;
+}
+
 if [ -n "${grubfm_current_path}" ];
 then
   hiddenentry " " --hotkey 0x02000066 {
