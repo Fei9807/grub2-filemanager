@@ -53,7 +53,7 @@ hiddenentry " Ventoy Multiboot" --hotkey f7 {
 }
  
 hiddenentry " grub4dos menu" --hotkey f8 {
-  configfile ${prefix}/g4dos.sh;
+  configfile ${prefix}/grub4.sh;
 }
 
 if [ -n "${grubfm_current_path}" ];
